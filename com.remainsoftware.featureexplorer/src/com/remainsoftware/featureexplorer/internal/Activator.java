@@ -20,7 +20,7 @@ public class Activator extends AbstractUIPlugin {
 
 	@Override
 	protected void initializeImageRegistry(ImageRegistry reg) {
-		// TODO Auto-generated method stub
+// test
 		super.initializeImageRegistry(reg);
 
 		Enumeration<?> enumer = context.getBundle().findEntries("icons", "*.gif", false);
