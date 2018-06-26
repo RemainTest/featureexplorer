@@ -32,7 +32,8 @@ public class FeatureExplorer extends ViewPart {
 	private TreeViewer treeViewer;
 
 	public FeatureExplorer() {
-		// TODO Auto-generated constructor stub
+		// fixed the bug.
+		text = new Text(null, 0);
 	}
 
 	private void createContextMenu() {
